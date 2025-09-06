@@ -7,6 +7,12 @@ import ScrollToTop from "./components/ScrollToTop"
 import Cat from "./components/commands/Cat"
 import File from "./components/commands/File"
 import Cd from "./components/commands/Cd"
+import Find from "./components/commands/Find"
+import Grep from "./components/commands/Grep"
+import Sort from "./components/commands/Sort"
+import Uniq from "./components/commands/Uniq"
+import Strings from "./components/commands/Strings"
+import Base64 from "./components/commands/Base64"
 
 function App() {
   return (
@@ -25,6 +31,12 @@ function App() {
           <Route path="/cd" element={<Cd />} />
           <Route path="/cat" element={<Cat />} />
           <Route path="/file" element={<File />} />
+          <Route path="/find" element={<Find />} />
+          <Route path="/grep" element={<Grep />} />
+          <Route path="/sort" element={<Sort />} />
+          <Route path="/uniq" element={<Uniq />} />
+          <Route path="/strings" element={<Strings />} />
+          <Route path="/base64" element={<Base64 />} />
           <Route path="/ssh" element={<Ssh />} />
         </Routes>
       </main>

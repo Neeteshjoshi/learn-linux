@@ -8,6 +8,12 @@ export default function Sidebar() {
         { to: "/cd", label: "CD", icon: <Folder className="w-5 h-5" /> },
         { to: "/cat", label: "CAT", icon: <Info className="w-5 h-5" /> },
         { to: "/file", label: "FILE", icon: <Info className="w-5 h-5" /> },
+        { to: "/find", label: "FIND", icon: <Info className="w-5 h-5" /> },
+        { to: "/grep", label: "GREP", icon: <Info className="w-5 h-5" /> },
+        { to: "/sort", label: "SORT", icon: <Info className="w-5 h-5" /> },
+        { to: "/uniq", label: "UNIQ", icon: <Info className="w-5 h-5" /> },
+        { to: "/strings", label: "STRINGS", icon: <Info className="w-5 h-5" /> },
+        { to: "/base64", label: "BASE64", icon: <Info className="w-5 h-5" /> },
         { to: "/ssh", label: "SSH", icon: <Settings className="w-5 h-5" /> },
     ];
 
